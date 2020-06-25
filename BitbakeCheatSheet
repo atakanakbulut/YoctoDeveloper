@@ -1,0 +1,13 @@
+
+
+bitbake $1 -> for create release/image/demo/toolchain
+
+bitbake -v -> Verbose
+
+bitbake -e -> interface
+
+bitbake -f -c compile image-name -> force rebuild
+
+
+
+

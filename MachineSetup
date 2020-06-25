@@ -1,0 +1,25 @@
+
+FOR SABRESD
+$ MACHINE=imx7dsabresd source fsl-setup-release.sh -b build-x11 -e x11
+
+BITBAKE RELEASES
+    core-image-minimal - TESTED
+    sato images - TESTED
+    qt5 images - TESTED
+
+GUI
+   X11 - TESTED
+   Wayland - TESTED
+
+
+
+FOR VARISCITE
+$  MACHINE=imx7-var-som DISTRO=fslc-x11 . setup-environment core-image
+
+
+BITBAKE RELEASES
+    core-image-minimal - TESTED
+    qt5 images - NOT TESTED!
+GUI 
+    NOT TESTED
+

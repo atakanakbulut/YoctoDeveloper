@@ -1,0 +1,12 @@
+######## THIS FILE EXPLAIN YOCTO'S SPEC ########
+
+CUSTOM:
+ENVIROMENT: UBUNTU 16.04 x86_64
+HARDWARE: RYZEN5-3600(12 core for parallel compiling), 16GB RAM
+
+
+BUILD ENVIROMENT
+
+Run build_env.sh and you will install important packages and yocto's enviroment
+ 
+$ ./build_env.sh
